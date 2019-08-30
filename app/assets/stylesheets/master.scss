@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+
 
 .clear {
   clear:both;
@@ -41,11 +45,31 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #00beff;
+  font_family: 'advent_promedium', sans-serif;
+  font-weight: bold;
 }
 
 hr {
   clear:both;
 }
+
+
+h1 {
+  
+  font-family: 'advent_probold', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  
+  font-family: 'advent_promedium', sans-serif;
+}
+
+
+
+
+
 
 
 
