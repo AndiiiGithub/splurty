@@ -11,9 +11,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'advent_proextralight';
     src: url('adventpro-extralight-webfont.woff2') format('woff2'),
@@ -22,9 +19,6 @@
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'advent_prolight';
@@ -35,9 +29,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'advent_promedium';
     src: url('adventpro-medium-webfont.woff2') format('woff2'),
@@ -46,9 +37,6 @@
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'advent_proregular';
@@ -59,9 +47,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'advent_prosemibold';
     src: url('adventpro-semibold-webfont.woff2') format('woff2'),
@@ -71,9 +56,6 @@
 
 }
 
-
-
-
 @font-face {
     font-family: 'advent_prothin';
     src: url('adventpro-thin-webfont.woff2') format('woff2'),
@@ -82,3 +64,35 @@
     font-style: normal;
 
 }
+
+/* Sticky footer styles
+
+------------------------------*/
+
+html {
+
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the foot here */
+    height: 60px;
+    
+}
+
+
+
+
+
+
+
+
+
